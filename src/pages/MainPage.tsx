@@ -73,7 +73,7 @@ const MainPage = () => {
   const columns: TableColumnsType<CompanyType> = [
     { title: "Названия компании", dataIndex: "name" },
     { title: "Количество сотрудников", dataIndex: "count" },
-    { title: "Actions", dataIndex: "actions" },
+    { title: "Действия", dataIndex: "actions" },
   ];
 
   function handleMoreBtnClick(id: string) {

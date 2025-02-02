@@ -13,7 +13,7 @@ const SignIn = () => {
         </div>
         <div className="flex space-y-1 items-start justify-center flex-col w-full">
           <label>Пароль</label>
-          <CustomInput name="password" type="text" placeholder="Введите пароль" />
+          <CustomInput name="password" type="password" placeholder="Введите пароль" />
         </div>
       </div>
 </>

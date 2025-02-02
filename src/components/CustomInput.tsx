@@ -7,12 +7,14 @@ const CustomInput: React.FC<CustomInputType> = ({ extraClass = "", name, size, p
   return type === "password" ? (
     <Input.Password
       required
+      type={type}
       name={name}
       onChange={onChange}
       className={`${extraClass}text-[#FFFFFF]`}
       size={size}
       placeholder={placeholder}
       value={value}
+      
     />
   ) : (
     <Input

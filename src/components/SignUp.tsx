@@ -27,7 +27,7 @@ const Signup = () => {
           <label>Пароль</label>
           <CustomInput
             name="password"
-            type="text"
+            type="password"
             placeholder="Введите пароль"
           />
         </div>
